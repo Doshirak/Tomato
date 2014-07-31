@@ -18,6 +18,7 @@ return array(
 			'password'=>'123456',
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
+        'editor',
 	),
 	'components'=>array(
 		'user'=>array(
