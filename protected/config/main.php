@@ -2,7 +2,7 @@
 
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'My Web Application',
+	'name'=>'Tomato',
 	'preload'=>array('log'),
     'aliases' => array(
         'foundation' => 'application.extensions.yiifoundation',
