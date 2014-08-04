@@ -9,3 +9,18 @@
     background: #000059;
     color: white;
 }
+
+.errorMessage{
+    margin-bottom: 2%;
+    color: red;
+}
+
+#registrate-form .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#login-form .row{
+    margin-left: 0;
+    margin-right: 0;
+}

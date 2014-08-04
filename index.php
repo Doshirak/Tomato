@@ -1,6 +1,6 @@
 <?php
 
-$yii='yii/framework/yii.php';
+$yii=dirname(__FILE__).'/yii/framework/yii.php';
 $config='protected/config/main.php';
 
 defined('YII_DEBUG') or define('YII_DEBUG',true);

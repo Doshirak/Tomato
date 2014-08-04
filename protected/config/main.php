@@ -22,10 +22,16 @@ return array(
 	),
 	'components'=>array(
 		'user'=>array(
+            'class' => 'WebUser',
 			'allowAutoLogin'=>true,
 		),
+        'authManager' => array(
+            'class' => 'PhpAuthManager',
+            'defaultRoles' => array('guest'),
+        ),
 		'urlManager'=>array(
 			'urlFormat'=>'path',
+            'showScriptName'=>false,
 			'rules'=>array(
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
